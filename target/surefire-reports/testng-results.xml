@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95905" started-at="2020-09-08T00:04:25Z" finished-at="2020-09-08T00:06:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="95905" started-at="2020-09-08T00:04:25Z" finished-at="2020-09-08T00:06:01Z">
+      <class name="practise.AppiumFramework.Check_amount_money">
+        <test-method status="PASS" signature="KillAllNode()[pri:0, instance:practise.AppiumFramework.Check_amount_money@3a079870]" name="KillAllNode" is-config="true" duration-ms="4012" started-at="2020-09-08T00:04:25Z" finished-at="2020-09-08T00:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllNode -->
+        <test-method status="PASS" signature="KillAllNode()[pri:0, instance:practise.AppiumFramework.Check_amount_money3@3b2cf7ab]" name="KillAllNode" is-config="true" duration-ms="4007" started-at="2020-09-08T00:04:29Z" finished-at="2020-09-08T00:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllNode -->
+        <test-method status="PASS" signature="totalValudation()[pri:0, instance:practise.AppiumFramework.Check_amount_money@3a079870]" name="totalValudation" duration-ms="26706" started-at="2020-09-08T00:04:33Z" finished-at="2020-09-08T00:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValudation -->
+      </class> <!-- practise.AppiumFramework.Check_amount_money -->
+      <class name="practise.AppiumFramework.scrollingDown">
+        <test-method status="PASS" signature="apiDemo()[pri:0, instance:practise.AppiumFramework.scrollingDown@2aa5fe93]" name="apiDemo" duration-ms="11323" started-at="2020-09-08T00:05:50Z" finished-at="2020-09-08T00:06:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- practise.AppiumFramework.scrollingDown -->
+      <class name="practise.AppiumFramework.Check_amount_money3">
+        <test-method status="PASS" signature="totalValudation(java.lang.String)[pri:0, instance:practise.AppiumFramework.Check_amount_money3@3b2cf7ab]" name="totalValudation" duration-ms="25134" started-at="2020-09-08T00:05:00Z" data-provider="InputData" finished-at="2020-09-08T00:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValudation -->
+        <test-method status="PASS" signature="totalValudation(java.lang.String)[pri:0, instance:practise.AppiumFramework.Check_amount_money3@3b2cf7ab]" name="totalValudation" duration-ms="24706" started-at="2020-09-08T00:05:25Z" data-provider="InputData" finished-at="2020-09-08T00:05:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#@#$#@5676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValudation -->
+      </class> <!-- practise.AppiumFramework.Check_amount_money3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

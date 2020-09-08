@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="239592" started-at="2020-09-07T00:00:42Z" finished-at="2020-09-07T00:04:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="239592" started-at="2020-09-07T00:00:42Z" finished-at="2020-09-07T00:04:41Z">
+      <class name="practise.AppiumFramework.Check_amount_money">
+        <test-method status="PASS" signature="KillAllNode()[pri:0, instance:practise.AppiumFramework.Check_amount_money@6e0dec4a]" name="KillAllNode" is-config="true" duration-ms="4041" started-at="2020-09-07T00:00:42Z" finished-at="2020-09-07T00:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllNode -->
+        <test-method status="PASS" signature="KillAllNode()[pri:0, instance:practise.AppiumFramework.Check_amount_money3@96def03]" name="KillAllNode" is-config="true" duration-ms="4004" started-at="2020-09-07T00:00:46Z" finished-at="2020-09-07T00:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllNode -->
+        <test-method status="PASS" signature="totalValudation()[pri:0, instance:practise.AppiumFramework.Check_amount_money@6e0dec4a]" name="totalValudation" duration-ms="49684" started-at="2020-09-07T00:00:50Z" finished-at="2020-09-07T00:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValudation -->
+      </class> <!-- practise.AppiumFramework.Check_amount_money -->
+      <class name="practise.AppiumFramework.scrollingDown">
+        <test-method status="PASS" signature="apiDemo()[pri:0, instance:practise.AppiumFramework.scrollingDown@1ed1993a]" name="apiDemo" duration-ms="31319" started-at="2020-09-07T00:04:10Z" finished-at="2020-09-07T00:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- practise.AppiumFramework.scrollingDown -->
+      <class name="practise.AppiumFramework.Check_amount_money2">
+        <test-method status="FAIL" signature="totalValudation()[pri:0, instance:practise.AppiumFramework.Check_amount_money2@5ccddd20]" name="totalValudation" duration-ms="55456" started-at="2020-09-07T00:01:40Z" finished-at="2020-09-07T00:02:35Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 0, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+at java.util.ArrayList.rangeCheck(Unknown Source)
+at java.util.ArrayList.get(Unknown Source)
+at practise.AppiumFramework.Check_amount_money2.totalValudation(Check_amount_money2.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValudation -->
+      </class> <!-- practise.AppiumFramework.Check_amount_money2 -->
+      <class name="practise.AppiumFramework.Check_amount_money3">
+        <test-method status="PASS" signature="totalValudation(java.lang.String)[pri:0, instance:practise.AppiumFramework.Check_amount_money3@96def03]" name="totalValudation" duration-ms="44148" started-at="2020-09-07T00:02:36Z" data-provider="InputData" finished-at="2020-09-07T00:03:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValudation -->
+        <test-method status="PASS" signature="totalValudation(java.lang.String)[pri:0, instance:practise.AppiumFramework.Check_amount_money3@96def03]" name="totalValudation" duration-ms="49880" started-at="2020-09-07T00:03:20Z" data-provider="InputData" finished-at="2020-09-07T00:04:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#@#$#@5676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValudation -->
+      </class> <!-- practise.AppiumFramework.Check_amount_money3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
